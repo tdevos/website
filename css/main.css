@@ -41,8 +41,9 @@ html, body, .jumbotron, .jumbotron-wrapper{
     height: 100%;
 }
 
-#whomai{
-    padding: 50px;
+#whomai, #competences, #career{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .divider-image{
