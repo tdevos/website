@@ -1,22 +1,72 @@
+.jumbotron{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/People/full page/img%20(26).jpg");
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+}
 
+.jumbotron-wrapper{
+    background-color: rgba(0, 0, 0, 0.7);
+    color:white;
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    height: 100%;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.jumbotron h1{
+    /*font-size: 74px;*/
+    /*font-weight: bolder;*/
+    /*text-transform: uppercase;*/
+}
 
+nav.navbar{
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+    border: none;
+}
+nav.navbar:not(.top-nav-collapse){
+    background: none;
+    padding-top: 20px;
+}
+html, body, .jumbotron, .jumbotron-wrapper{
+    height: 100%;
+}
 
+#whomai{
+    padding: 50px;
+}
 
+.divider-image{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    padding: 0;
+}
 
+.divider-image{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    padding: 0;
+}
 
+.sea{
+    background-image: url("https://images.unsplash.com/photo-1435783099294-283725c37230?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=");
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.mountains{
+    background-image: url("https://images.unsplash.com/photo-1469353680598-5dc830efef5c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+}
