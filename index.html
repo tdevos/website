@@ -43,6 +43,7 @@
     </nav>
 
     <div class="jumbotron">
+        <div style="position: absolute; width: 100%; height: 100%" id="particles-js"></div>
         <div class="jumbotron-wrapper">
             <div class="container text-center">
                 <h1>Thomas Devos</h1>
@@ -55,13 +56,13 @@
     <div class="container" id="whomai">
         <h2>Who am I</h2>
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-md-4">
                 test
             </div>
-            <div class="col-xs-5">
+            <div class="col-md-4">
                 bla
             </div>
-            <div id="quick" class="col-md-3">
+            <div id="quick" class="col-md-4">
                 <h2>Actual</h2>
                 <dl>
                     <dt>Location: </dt>
@@ -71,8 +72,9 @@
                 </dl>
                 <h2>Contacts</h2>
                 <ll>
-                    <li>Mail: devos.thom@gmail.com</li>
-                    <li>LinkedIn: </li>
+                    <li>Mail: <a href="mailto:devos.thom@gmail.com">devos.thom@gmail.com</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/thomas-devos-21785133/" target="_blank">Thomas Devos</a></li>
+                    <li>TVA: 0659.974.538</li>
                 </ll>
             </div>
         </div>
@@ -88,7 +90,9 @@
                 <h3>PHP</h3>
                 <p>
                     <a class="label label-default" href="http://php.net" target="_blank">PHP 5.6</a>
+                    <a class="label label-default" href="http://php.net" target="_blank">PHP 7.1</a>
                     <a class="label label-default" href="https://symfony.com/" target="_blank">Symfony 2</a>
+                    <a class="label label-default" href="https://symfony.com/" target="_blank">Symfony 3</a>
                     <a class="label label-default" href="https://github.com/zendframework/zf1" target="_blank">Zend 1</a>
                     <a class="label label-default" href="http://framework.zend.com/" target="_blank">Zend 2</a>
                     <a class="label label-default" href="http://www.doctrine-project.org/" target="_blank">Doctrine</a>
@@ -110,18 +114,25 @@
                     <a class="label label-default" href="https://www.datatables.net" target="_blank">Datatable</a>
                     <a class="label label-default" href="https://www.datatables.net" target="_blank">NodeJs</a>
                 </p>
+                <h3>ICT</h3>
+                <p>
+                    <a class="label label-default" href="#" target="_blank">Linux</a>
+                    <a class="label label-default" href="#" target="_blank">Ubuntu</a>
+                    <a class="label label-default" href="#" target="_blank">Docker</a>
+                </p>
+                <h3>Management</h3>
+                <p>
+                    <a class="label label-default" href="#" target="_blank">Scrum</a>
+                    <a class="label label-default" href="#" target="_blank">Gestion de serveur</a>
+                    <a class="label label-default" href="#" target="_blank">Gestion de projet</a>
+                    <a class="label label-default" href="#" target="_blank">Gestion d'équipe</a>
+                </p>
                 <h3>Autre</h3>
                 <p>
-                    <a class="label label-default" href="" target="_blank">Linux</a>
-                    <a class="label label-default" href="" target="_blank">Scrum</a>
-                    <a class="label label-default" href="" target="_blank">PhpStorm</a>
-                    <a class="label label-default" href="" target="_blank">Eclipse</a>
-                    <a class="label label-default" href="" target="_blank">Ubuntu</a>
-                    <a class="label label-default" href="" target="_blank">Photoshop</a>
-                    <a class="label label-default" href="" target="_blank">Illustrator</a>
-                    <a class="label label-default" href="" target="_blank">Gestion de serveur</a>
-                    <a class="label label-default" href="" target="_blank">Gestion de projet</a>
-                    <a class="label label-default" href="" target="_blank">Gestion d'équipe</a>
+                    <a class="label label-default" href="#" target="_blank">PhpStorm</a>
+                    <a class="label label-default" href="#" target="_blank">Eclipse</a>
+                    <a class="label label-default" href="#" target="_blank">Photoshop</a>
+                    <a class="label label-default" href="#" target="_blank">Illustrator</a>
                 </p>
             </div>
 
@@ -219,7 +230,9 @@
         <footer>
             <p>&copy; Thomas Devos 2017</p>
         </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </div> <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
